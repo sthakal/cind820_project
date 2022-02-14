@@ -19,22 +19,22 @@ bank_full=pd.read_csv("C://Users//sthakal//OneDrive - George Weston Limited-6469
 bank_full.head(15)
 
 
-# In[96]:
+# In[114]:
 
 
-bank_full.describe(include='all')
+bank_full.isna().count()
 
 
-# In[97]:
+# In[115]:
 
 
 bank_full.corr()
 
 
-# In[98]:
+# In[111]:
 
 
-bank_full.info()
+bank_full.shape
 
 
 # In[99]:
@@ -43,32 +43,32 @@ bank_full.info()
 bank_full.hist('age')
 
 
-# In[100]:
+# In[116]:
 
 
 job_cnt=bank_full['job'].value_counts()
 print(job_cnt)
 
 
-# In[101]:
+# In[117]:
 
 
 bank_full['marital'].value_counts()
 
 
-# In[102]:
+# In[120]:
 
 
 bank_full['education'].value_counts()
 
 
-# In[103]:
+# In[121]:
 
 
 bank_full['month'].value_counts()
 
 
-# In[104]:
+# In[122]:
 
 
 #understanding the count of the Predictor variable
