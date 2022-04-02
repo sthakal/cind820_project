@@ -7,8 +7,15 @@ The dataset utilized is bank-additional-full.csv.There is a total of 41,888 reco
 **Model:**
 The Model adopted for this intial code stage is Logistic Regression model.
 
-**Code:**
-**Banking_Data_set_intial_code_ST.ipynb** code starts with Univariate Analysis,  Bivariate analysis, Analyzing the relationship between numerical variables and understanding the relationship between the independent variable and categorical depandent variable. To utilize the python based Logestic regression model , encoding of Categorical variable is done. Then the dataset is split between the train and test sets. Finally the model is run and it's AOC is checked.
+*******Code:******
 
-**Technical Report:**
-Banking_Data_set_intial_code_ST.pdf consists of the compiled version of the code and the approach.
+***A: Banking_Data_set_intial_code_ST.ipynb** code starts with Univariate Analysis,  Bivariate analysis, Analyzing the relationship between numerical variables and understanding the relationship between the independent variable and categorical depandent variable. To utilize the python based Logestic regression model , encoding of Categorical variable is done. Then the dataset is split between the train and test sets. Finally the model is run and it's AOC is checked.
+
+***B: Banking_Data_set_Final_code_28_Mar_2022** code starts with Univariate Analysis,  Bivariate analysis, Analyzing the relationship between numerical variables and understanding the relationship between the independent variable and categorical depandent variable. To implment various ML models, encoding of Categorical variable is done. One of the Categorical variable 'duration is dropped'. The the dataset is split between the train, test and validation sets. Then the model is run for Logistic regression , Neural network and Decison tree. Each of those model is evaluated in terms of Recall, precison, accuracy , time taken to execute, stability, mean and standard deviation of the cross validation score.
+
+
+******Technical Report:******
+
+*A: Banking_Data_set_intial_code_ST.pdf consists of the compiled version of the code and the approach.
+
+*B: Banking_Data_set_Final_code_28_Mar_2022.pdf consists of the compiled version of the final code.
